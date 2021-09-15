@@ -1,32 +1,22 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-//package nathanburnhamweek3lecture2;
+//Nathan Burnham BCS345 9/15/21
+//Lab 3 task method that takes string, and returns how many chars are there.
 
-/**
- *
- * @author soblab
- */
-/*public class NathanBurnhamWeek3Lecture2 {
+package nathanburnhamweek3lecture2;
 
-   public static int getSum(int num1, int num2)
+public class NathanBurnhamWeek3Lecture2 
+{
+       public static int getLength(String word)
    {
-       int total;
-       total = num1+num2;
-       return total;
+       int length;
+       length = word.length();
+       return length;
    }
    
-   public static void main(String[] args)
+      public static void main(String[] args)
    {
-       int x = 10;
-       int y = 20;
-       int sum;
-       sum = getSum(x, y);
-       System.out.println("Sum is: " + sum);
+       int length;
+       String word = "Thousand";
+       length = getLength(word);
+       System.out.println("Length of word is: " + length);
    }
-    
-}*/
-
-
+}
